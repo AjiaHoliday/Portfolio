@@ -148,26 +148,27 @@ header nav ul li a:hover {
     opacity: 1;
 }
 
-.run-buddy {
+.main {
     grid-column: 1/3;
     grid-row: span 2;
+    background-image: url("../images/brew-finder.png");
+    background-position: top;
+}
+
+.feature1 {
+    background-image: url("../images/robot-gladiators.png");
+}
+
+.feature2 {
     background-image: url("../images/run-buddy.png");
     background-position: left;
 }
 
-.robot-gladiators {
-    background-image: url("../images/robot-gladiators.png");
-}
-
-.led-wall {
-    background-image: url("../images/led-wall.png");
-}
-
-.password-generator {
+.feature3 {
     background-image: url("../images/password-generator.png");
 }
 
-.taskinator {
+.feature4 {
     background-image: url("../images/taskinator.png");
 }
 
